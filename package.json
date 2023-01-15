@@ -1,0 +1,21 @@
+{
+  "name": "indaavitech",
+  "version": "1.0.0",
+  "description": "cypress cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Barbora Dilska",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.1",
+    "@cypress/webpack-preprocessor": "^5.16.1",
+    "cypress": "^12.3.0",
+    "cypress-fill-command": "^1.0.2"
+  },
+  "dependencies": {
+    "mailslurp": "^0.0.1-security",
+    "typescript": "^4.9.4"
+  }
+}
